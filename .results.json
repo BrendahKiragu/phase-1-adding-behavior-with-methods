@@ -2,12 +2,12 @@
   "stats": {
     "suites": 3,
     "tests": 7,
-    "passes": 5,
+    "passes": 7,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-07-24T08:59:14.274Z",
-    "end": "2024-07-24T08:59:14.596Z",
-    "duration": 322
+    "failures": 0,
+    "start": "2024-07-24T09:07:03.918Z",
+    "end": "2024-07-24T09:07:04.226Z",
+    "duration": 308
   },
   "tests": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "has a class of dog",
       "fullTitle": "dog has a class of dog",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,47 +48,20 @@
     {
       "title": "bird.speak() returns 'It's me! [name], the parrot!'",
       "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: bird.speak is not a function\n    at Context.<anonymous> (test/indexTest.js:39:17)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "bird.speak is not a function"
-      }
+      "err": {}
     },
     {
       "title": "bird2.speak() returns 'Squawk!'",
       "fullTitle": "bird bird2.speak() returns 'Squawk!'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: bird2.speak is not a function\n    at Context.<anonymous> (test/indexTest.js:42:18)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "bird2.speak is not a function"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "bird.speak() returns 'It's me! [name], the parrot!'",
-      "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: bird.speak is not a function\n    at Context.<anonymous> (test/indexTest.js:39:17)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "bird.speak is not a function"
-      }
-    },
-    {
-      "title": "bird2.speak() returns 'Squawk!'",
-      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: bird2.speak is not a function\n    at Context.<anonymous> (test/indexTest.js:42:18)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "bird2.speak is not a function"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "has a class of cat",
@@ -107,7 +80,7 @@
     {
       "title": "has a class of dog",
       "fullTitle": "dog has a class of dog",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -122,6 +95,20 @@
       "title": "has a class of Bird",
       "fullTitle": "bird has a class of Bird",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird.speak() returns 'It's me! [name], the parrot!'",
+      "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird2.speak() returns 'Squawk!'",
+      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
